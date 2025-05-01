@@ -1,0 +1,294 @@
+.navbar a{
+  font-size: 1.8vw !important; 
+}
+.nav-about-us{
+  margin-left: 6.11vw !important;
+}
+
+.w-2{
+  font-size: 3vw;
+}
+
+.tlk-btn{
+  font-size: 1.8vw !important; 
+}
+
+.btn-scroll.scrolled {
+  background-color: black;
+  color: white;
+  border-radius: 64px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.f-text {
+  text-align: center;
+  font-family: inherit !important;
+}
+/* 
+.abt {
+  margin-bottom: 80px;
+} */
+
+.opportunity-card {
+  background-color: #f8f8ff;
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.opportunity-label {
+  font-size: 1.25rem;
+  font-weight: 600;
+  flex: 0 0 30%;
+}
+
+.opportunity-text {
+  font-size: 1rem;
+  color: #6c757d;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .opportunity-card {
+    flex-direction: column;
+  }
+
+  .opportunity-label {
+    flex: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .left-column {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+.collective-card {
+  background-color: #f8f8ff;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  height: 100%;
+}
+
+.collective-image {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+.collective-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.collective-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+.view-all-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.arrow-icons {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .arrow-icons {
+    justify-content: center;
+  }
+
+  .view-all-btn {
+    display: block;
+    margin: 1rem auto 0;
+  }
+}
+
+.collective-card {
+  background-color: #f8f8ff;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  height: 100%;
+}
+
+.collective-image {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+.collective-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.collective-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+.view-all-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.arrow-icons {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .arrow-icons {
+    justify-content: center;
+  }
+
+  .view-all-btn {
+    display: block;
+    margin: 1rem auto 0;
+  }
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    top: 88px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+.personal-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1 1 400px;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-content p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.video-wrapper {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 2rem;
+}
+
+.video-wrapper video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+footer .hdr {
+  padding-bottom: 0 !important;
+}
+
+footer .ftr  {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.nav-bar-bt{
+  background-color: black;
+  color: white;
+  border-radius: 64px;
+  padding-top: 0px;
+  margin-top: 10px;
+  padding-right: 17px;
+  padding-bottom: 0px;
+  height: 50px;
+  width: 118px;
+}
+
+
+.copy {
+  margin-bottom: 0px;
+}
+
+.ftr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.footer-left b {
+  font-size: 1rem;
+}
+
+.footer-right .copy {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
