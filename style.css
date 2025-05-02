@@ -201,7 +201,8 @@
 
 @media (max-width: 768px) {
   .overlay {
-    top: 88px;
+    text-align: justify;
+    top: 70px;
     align-items: center;
     text-align: center;
   }
@@ -268,9 +269,10 @@ footer .ftr  {
   padding-bottom: 0px !important;
 }
 
-.nav-bar-bt{
+.overlay{
   font-size: 38px !important;
   margin-top: 16px;
+
 }
 
 
