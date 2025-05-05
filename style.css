@@ -197,12 +197,18 @@
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   color: black;
+  align-items: flex-end;
+  text-align: end;
+}
+
+.overlay p {
+  margin-top: 0px !important;
 }
 
 @media (max-width: 768px) {
   .overlay {
-    text-align: justify !important;
-    top: 55px;
+    /* text-align: justify !important; */
+    top: 170px;
     align-items: center;
     text-align: center;
   }
@@ -296,4 +302,12 @@ footer .ftr  {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.9rem;
+}
+
+.hi-hdr {
+  background-color: rgb(255, 240, 187);
+}
+
+.hi-mup {
+  height: 160vh;
 }
