@@ -9,6 +9,12 @@
   font-size: 3vw;
 }
 
+@media (max-width: 768px) {
+  .w-2{
+    font-size: 26px;
+  }
+  
+}
 .tlk-btn{
   font-size: 1.8vw !important; 
 }
@@ -189,7 +195,7 @@
 
 .overlay {
   position: absolute;
-  top: 50px;
+  top: 65px;
   right: 20px;
   display: flex;
   flex-direction: column;
@@ -208,7 +214,7 @@
 @media (max-width: 768px) {
   .overlay {
     right: 0px;
-    top: 170px;
+    top: 40vh;
     align-items: center;
     text-align: center;
     background-color: rgb(255, 240, 187);
@@ -262,6 +268,9 @@
 }
 
 @media (max-width: 768px) {
+  .img-wrapper {
+    padding-left: 0px !important;
+  }
   .img-wrapper img {
     width: 100%;
   }
@@ -309,11 +318,10 @@ footer .ftr  {
   background-color: rgb(255, 240, 187);
   position: relative;
   overflow: hidden;
+  height: 1351px !important;
 }
 
-.hi-mup {
-  height: 160vh !important;
-  object-fit: contain !important;
-  /* position: absolute; */
+.hi-mup{
+  height: 48vh !important;
   z-index: 0;
 }
