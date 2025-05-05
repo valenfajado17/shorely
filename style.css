@@ -309,5 +309,6 @@ footer .ftr  {
 }
 
 .hi-mup {
-  height: 160vh;
+  height: 160vh !important;
+  object-fit: contain !important;
 }
