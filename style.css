@@ -207,10 +207,11 @@
 
 @media (max-width: 768px) {
   .overlay {
-    /* text-align: justify !important; */
+    right: 0px;
     top: 170px;
     align-items: center;
     text-align: center;
+    background-color: rgb(255, 240, 187);
   }
 }
 
@@ -306,9 +307,13 @@ footer .ftr  {
 
 .hi-hdr {
   background-color: rgb(255, 240, 187);
+  position: relative;
+  overflow: hidden;
 }
 
 .hi-mup {
   height: 160vh !important;
   object-fit: contain !important;
+  /* position: absolute; */
+  z-index: 0;
 }
